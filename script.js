@@ -1,3 +1,4 @@
+// function that will compute the amount that the user will receive by aggregating the investment amount, investment period, and interest rate.
 function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -17,6 +18,7 @@ function compute()
     }
 }
 
+// function that will update the interest rate slider when the user changes the slider value
 function updateRate() { 
     var rateval = document.getElementById("rate").value; 
     document.getElementById("rate_val").innerText = rateval;

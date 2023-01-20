@@ -2,18 +2,24 @@
 <html>
     <head>
     <title>Simple Interest Calculator</title> 
+    <!-- Link JS script to add functionality to the site & link CSS file to add styling to the site -->
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="maindiv"> 
         <h1>Simple Interest Calculator</h1>
-
+        
+        <!-- Input box that will take in the amount value (investment amount) -->
         Amount <input type="number"  id="principal">  <br/>
         
+        <!-- Input box that will take in the rate value and be displayed a slider for the user to select a rate (interest rate) -->
         Rate <input type="range" id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()">  <br/>
+        
+        <!-- Default value of the rate will be 10.25 -->
         <span id="rate_val"> 10.25 </span>% <br/> 
         
+        <!-- Input box that will allow the user to select the # of year they want to invest (drop-down menu) -->
         No. of Years <input type="number" id="years" list="all_years">
         <datalist id="all_years">
             <option value="1">1</option>
@@ -28,13 +34,17 @@
             <option value="10">10</option>
         </datalist>
         
+        <!-- Display output/results to the user -->
         Interest : <span id="result"></span><br>
-
+        
+        <!-- Display the output/results only when the user clicks on the "Compute Interest" Button-->
         <button onclick="compute()">Compute Interest</button>
         <span id="result"> </span>  
         
         </div> 
         <br> 
+
+        <!-- Copyright message -->
         <footer>
             &#169; This Calculator belongs to Munqiz Minhas
         </footer>
