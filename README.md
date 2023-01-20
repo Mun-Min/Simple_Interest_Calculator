@@ -4,4 +4,8 @@
   lab assignment for the Introduction to Web Development with HTML, CSS, JavaScript course offered by IBM 
   (which is course 2 of the IBM Full Stack Developer Professional Certification Program).
 
-<img align="middle" width="450" height="500" src="./Images/website_image.png">
+<p align="center">
+
+  <img src="./Images/website_image.png" alt="credit risk image" height = 450 width = 500>
+
+</p>
