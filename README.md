@@ -6,6 +6,6 @@
 
 <p align="center">
 
-  <img src="./Images/website_image.png" alt="credit risk image" height = 450 width = 500>
+  <img src="./Images/website_image.png" alt="credit risk image" height = 450 width = 450>
 
 </p>
